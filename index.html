@@ -13,26 +13,26 @@
         <div class="calculator">
             <div class="display" id="output"></div>
             <div class="buttons">
-                <button id="clear">AC</button>
+                <button id="clear" value="Clear">AC</button>
                 <button id="sign">+/-</button>
-                <button id="percentage">%</button>
-                <button class="operator" id="division" onclick="appendOperator('/')">/</button>
-                <button class="operand" onclick="appendNumber(7)">7</button>
-                <button class="operand" onclick="appendNumber(8)">8</button>
-                <button class="operand" onclick="appendNumber(9)">9</button>
-                <button class="operator" id="multiplication" onclick="appendOperator('*')">*</button>
-                <button class="operand" onclick="appendNumber(4)">4</button>
-                <button class="operand" onclick="appendNumber(5)">5</button>
-                <button class="operand" onclick="appendNumber(6)">6</button>
-                <button class="operator" id="subtraction" onclick="appendOperator('-')">-</button>
-                <button class="operand" onclick="appendNumber(1)">1</button>
-                <button class="operand" onclick="appendNumber(2)">2</button>
-                <button class="operand" onclick="appendNumber(3)">3</button>
-                <button class="operator" id="addition" onclick="appendOperator('+')">+</button>
-                <button class="operand" onclick="appendNumber(0)">0</button>
-                <button>.</button>
+                <button id="percentage" value="%">%</button>
+                <button class="operator" value="/" id="division" value="/" onclick="appendToProblem('/')">/</button>
+                <button class="operand" value="7" onclick="appendToProblem(7)">7</button>
+                <button class="operand" value="8" onclick="appendToProblem(8)">8</button>
+                <button class="operand" value="9" onclick="appendToProblem(9)">9</button>
+                <button class="operator" value="*" id="multiplication" onclick="appendToProblem('*')">*</button>
+                <button class="operand" value="4" onclick="appendToProblem(4)">4</button>
+                <button class="operand" value="5" onclick="appendToProblem(5)">5</button>
+                <button class="operand" value="6" onclick="appendToProblem(6)">6</button>
+                <button class="operator" value="-" id="subtraction" onclick="appendToProblem('-')">-</button>
+                <button class="operand" value="1" onclick="appendToProblem(1)">1</button>
+                <button class="operand" value="2" onclick="appendToProblem(2)">2</button>
+                <button class="operand" value="3" onclick="appendToProblem(3)">3</button>
+                <button class="operator" value="+" id="addition" onclick="appendToProblem('+')">+</button>
+                <button class="operand" value="0" onclick="appendToProblem(0)">0</button>
+                <button value="." onclick="appendToProblem('.')">.</button>
                 <button id="backspace">~</button>
-                <button class="operator" id="equalTo" onclick="appendOperator('=')">=</button>
+                <button class="operator" value="=" id="equalTo">=</button>
             </div>
         </div>
     </div>
