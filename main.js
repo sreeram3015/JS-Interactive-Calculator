@@ -32,3 +32,7 @@ function calculate() {
     output.innerText = result.toString(); // Display the final result as a string
 }
 // Subtraction operation is not working properly, and the reason is not known
+
+function clearScreen(){
+    output.innerText = "";
+}

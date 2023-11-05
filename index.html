@@ -13,9 +13,7 @@
         <div class="calculator">
             <div class="display" id="output"></div>
             <div class="buttons">
-                <button id="clear" value="Clear">AC</button>
-                <button id="sign">+/-</button>
-                <button id="percentage" value="%">%</button>
+                <button id="clear" value="Clear" onclick="clearScreen()">AC</button>
                 <button class="operator" value="/" id="division" value="/" onclick="appendToProblem('/')">/</button>
                 <button class="operand" value="7" onclick="appendToProblem(7)">7</button>
                 <button class="operand" value="8" onclick="appendToProblem(8)">8</button>
@@ -29,9 +27,8 @@
                 <button class="operand" value="2" onclick="appendToProblem(2)">2</button>
                 <button class="operand" value="3" onclick="appendToProblem(3)">3</button>
                 <button class="operator" value="+" id="addition" onclick="appendToProblem('+')">+</button>
-                <button class="operand" value="0" onclick="appendToProblem(0)">0</button>
+                <button class="operand zero" value="0" onclick="appendToProblem(0)">0</button>
                 <button value="." onclick="appendToProblem('.')">.</button>
-                <button id="backspace">~</button>
                 <button class="operator" value="=" id="equalTo" onclick="calculate()">=</button>
             </div>
         </div>

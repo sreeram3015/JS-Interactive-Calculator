@@ -44,8 +44,8 @@
 }
 
 button {
-    padding: 10px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 40px;
     background-color: #4CAF50;
     border-radius: 5px;
     cursor: pointer;
@@ -69,4 +69,12 @@ button {
 
 .operand:hover{
     background-color: #1976D2;
+}
+
+#clear{
+    grid-column: span 3;
+}
+
+.zero{
+    grid-column: span 2;
 }
